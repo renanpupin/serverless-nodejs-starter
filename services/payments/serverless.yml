@@ -14,6 +14,7 @@ provider:
   runtime: nodejs14.x
   stage: dev
   region: us-east-1
+  timeout: ${file(../../config.yml):timeout}
 
 functions:
   hello:
