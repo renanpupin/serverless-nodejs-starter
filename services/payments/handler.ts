@@ -1,4 +1,4 @@
-import * as DateLib from '../../libs/date.ts';
+import * as DateLib from '../../libs/date';
 import samplePackage from 'sample-package';
 
 export const hello = async (event, context) => {

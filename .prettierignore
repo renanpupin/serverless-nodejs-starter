@@ -1,0 +1,16 @@
+node_modules
+__tests__
+.webpack
+.serverless
+data
+mongodb-local-data
+coverage
+src/product/productCategory.seed.ts
+src/buyer/buyerCategory.seed.ts
+build
+test
+jest.config.js
+metro.config.js
+prettier.config.js
+.prettierrc.js
+.eslintrc.js
