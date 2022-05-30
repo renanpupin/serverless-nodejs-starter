@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "postinstall": "yarn bootstrap",
     "bootstrap": "lerna bootstrap"
   },
   "workspaces": [
