@@ -1,1 +1,1 @@
-check_code_change: pnpm
+check_code_change: lerna

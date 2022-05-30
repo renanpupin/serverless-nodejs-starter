@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "serverless-bundle": "^4.3.1",
-    "serverless-offline": "^5.12.1"
+    "serverless-offline": "^8.8.0"
   },
   "dependencies": {
     "sample-package": "^0.0.1"
