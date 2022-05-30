@@ -5,8 +5,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "postinstall": "yarn bootstrap",
-    "bootstrap": "lerna bootstrap"
+    "watch": "lerna run --parallel watch",
+    "test": "lerna run test",
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "yarn bootstrap"
   },
   "workspaces": [
     "packages/*",

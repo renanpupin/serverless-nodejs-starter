@@ -1,3 +1,5 @@
 - Next steps
   - esbuild
   - pnpm
+  - tests
+  - ts
