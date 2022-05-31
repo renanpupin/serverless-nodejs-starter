@@ -2,4 +2,3 @@
   - esbuild
   - pnpm
   - tests
-  - ts [ok]

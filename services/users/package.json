@@ -4,7 +4,8 @@
   "description": "A Node.js starter for Serverless Framework with ES6 and TypeScript support",
   "main": "handler.js",
   "scripts": {
-    "test": "serverless-bundle test",
+    "test:bundle": "serverless-bundle test",
+    "test": "jest",
     "watch": "sls offline --skipCacheInvalidation --httpPort 3000 --lambdaPort 3001"
   },
   "author": "",
@@ -14,6 +15,10 @@
     "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
   },
   "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "esbuild": "^0.14.42",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^28.1.0",
     "serverless-bundle": "^4.3.1",
     "serverless-offline": "^8.8.0"
   },
